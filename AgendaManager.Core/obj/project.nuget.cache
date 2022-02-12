@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "FBDoleohcRyjBjQ7RIKhEOEOstUnM8jx5T55QV+TvQankikkskNQeW6j7v8DawyEfUcItrXUifk4QCMtzo0rcw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danie\\source\\repos\\AgendaManager\\AgendaManager.Core\\AgendaManager.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.22\\microsoft.extensions.configuration.3.1.22.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.22\\microsoft.extensions.configuration.abstractions.3.1.22.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.22\\microsoft.extensions.dependencyinjection.3.1.22.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.22\\microsoft.extensions.dependencyinjection.abstractions.3.1.22.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.22\\microsoft.extensions.primitives.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}

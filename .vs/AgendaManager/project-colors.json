@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "239e95fb-22bd-4adc-b357-6dd3f759dfe8": {
+      "ProjectGuid": "239e95fb-22bd-4adc-b357-6dd3f759dfe8",
+      "DisplayName": "AgendaManager",
+      "ColorIndex": 0
+    },
+    "8755a6b2-9590-4fab-8f0f-82f5ed4f0a6d": {
+      "ProjectGuid": "8755a6b2-9590-4fab-8f0f-82f5ed4f0a6d",
+      "DisplayName": "AgendaManager.Core",
+      "ColorIndex": 1
+    },
+    "39c8c520-0a8e-4e18-aaf0-bcef4d06fcae": {
+      "ProjectGuid": "39c8c520-0a8e-4e18-aaf0-bcef4d06fcae",
+      "DisplayName": "AgendaManager.Services",
+      "ColorIndex": 2
+    },
+    "82f1c9da-27bd-4f48-8d8b-cc3d8f22e372": {
+      "ProjectGuid": "82f1c9da-27bd-4f48-8d8b-cc3d8f22e372",
+      "DisplayName": "AgendaManager.Model",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "aef55741-001f-4c29-a5bb-703ed488f874": {
+      "ProjectGuid": "aef55741-001f-4c29-a5bb-703ed488f874",
+      "DisplayName": "AgendaManager.Bl",
+      "ColorIndex": 4
+    },
+    "39e99283-0ccd-4a65-92b1-42ccf2cb97bf": {
+      "ProjectGuid": "39e99283-0ccd-4a65-92b1-42ccf2cb97bf",
+      "DisplayName": "EventTimer",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
