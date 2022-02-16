@@ -14,6 +14,7 @@ namespace AgendaManager.Services.IoC
             services.AddTransient<IJwtService, JwtService>();
             services.AddTransient<IUserService, UserService>();
             services.AddTransient<IEventService, EventService>();
+            services.AddTransient<IInvitationService, InvitationService>();
         }
     }
 }

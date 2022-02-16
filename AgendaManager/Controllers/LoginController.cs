@@ -12,25 +12,32 @@ namespace AgendaManager.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class LoginController : BaseController<User,UserDto,AgendaContext>
-    {
+    public class LoginController : ControllerBase { 
+
         private readonly IJwtService _jwtService;
 
         private readonly IUserService _userService;
         
-        public LoginController(IJwtService jwtService, IUserService userService ) : base(userService)
+        public LoginController(IJwtService jwtService, IUserService userService )
         { 
             _jwtService = jwtService;
             _userService = userService;
         }
 
-        [HttpPost("signin")]
+        [HttpPost]
         [AllowAnonymous]
         public async Task<string> Login(LoginDto user)
         {
             
             var token = await _jwtService.GetToken(user);
             return token;
+        }
+
+
+        [HttpPost("create")]
+        public async Task<IActionResult> Create( UserDto user )
+        {
+            return Ok(await _userService.Create(user));
         }
 
         [HttpGet("Test")]

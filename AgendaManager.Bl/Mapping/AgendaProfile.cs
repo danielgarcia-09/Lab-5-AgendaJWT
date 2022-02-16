@@ -22,6 +22,12 @@ namespace AgendaManager.Bl.Mapping
 
             CreateMap<EventDto, Event>()
                 .ForMember(dest => dest.Id, opt => opt.Ignore());
+
+            CreateMap<InvitationDto, Invitation>()
+               .ReverseMap();
+
+            CreateMap<InvitationDto, Invitation>()
+                .ForMember(dest => dest.Id, opt => opt.Ignore());
         }
     }
 }

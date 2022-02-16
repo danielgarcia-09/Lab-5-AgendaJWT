@@ -32,26 +32,22 @@ namespace AgendaManager.Services.Service
 
         public override async Task<EventDto> Create(EventDto dto)
         {
-            var events = await GetEvents(dto.UserId);
+            var TimeConditions = Get()
+                .Where(x => x.StartDate >= dto.EndDate)
+                .Where(x => x.StartDate <= dto.StartDate)
+                .Where(x => x.EndDate >= dto.EndDate)
+                .Where(x => x.EndDate <= dto.StartDate)
+                .Where(x => x.UserId == dto.UserId)
+                .Any();
 
-            var isSame = events.Where(x => x.EventDate == dto.EventDate).ToList();
-            
-            if (isSame.Count == 0)
-            {
-                var isEarlierThanNow = DateTime.Compare(dto.EventDate, DateTime.Now);
+            if (TimeConditions) return null;
 
-                if (isEarlierThanNow > 0)
-                {
+            if (dto.StartDate < DateTime.Now || dto.EndDate < DateTime.Now) return null;
 
-                    var created = await base.Create(dto);
+            if (dto.StartDate > dto.EndDate ) return null;
+
+            return await base.Create(dto);
                     
-                    return created;
-                }
-
-                return null;
-            }
-
-            return null;
         }
 
         public override async Task<EventDto> Update(int id, EventDto dto)
@@ -60,7 +56,7 @@ namespace AgendaManager.Services.Service
 
             if(isEvent != null)
             {
-                if (isEvent.Completed) return null;
+                if (isEvent.EndDate < DateTime.Now) return null;
 
                 return await base.Update(id, dto);
             }

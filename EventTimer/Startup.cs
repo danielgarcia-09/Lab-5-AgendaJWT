@@ -25,9 +25,9 @@ namespace EventTimer
 
             builder.Services.Configure<TimeConfig>(Configuration.GetSection("TimeConfig"));
 
-            builder.Services.AddTransient<IEventService, EventService>();
+            builder.Services.AddTransient<IInvitationService, InvitationService>();
 
-            builder.Services.AddDbContext<AgendaContext>(op => SqlServerDbContextOptionsExtensions.UseSqlServer(op, connectionString));
+            builder.Services.AddDbContext<AgendaContext>(op => SqliteDbContextOptionsBuilderExtensions.UseSqlite(op, connectionString));
 
             builder.Services.AddTransient<IEventTimeService, EventTimeService>();
             builder.Services.AddServicesRegistry();

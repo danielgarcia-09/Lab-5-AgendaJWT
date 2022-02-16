@@ -35,7 +35,12 @@
       "ProjectGuid": "39e99283-0ccd-4a65-92b1-42ccf2cb97bf",
       "DisplayName": "EventTimer",
       "ColorIndex": 5
+    },
+    "00b5e972-6b89-419a-b0f9-5db4b26c2333": {
+      "ProjectGuid": "00b5e972-6b89-419a-b0f9-5db4b26c2333",
+      "DisplayName": "AgendaManager.Tests",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }

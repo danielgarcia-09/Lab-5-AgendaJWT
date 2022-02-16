@@ -26,7 +26,7 @@ namespace AgendaManager.Controllers
         [HttpGet]
         public virtual async Task<IActionResult> Get()
         {
-            return Ok(await _service.Get());
+            return Ok(_service.Get());
         }
 
         [HttpGet("{id}")]

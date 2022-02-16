@@ -1,0 +1,15 @@
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Bl\bin\Release\netcoreapp3.1\AgendaManager.Bl.deps.json
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Bl\bin\Release\netcoreapp3.1\AgendaManager.Bl.dll
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Bl\bin\Release\netcoreapp3.1\AgendaManager.Bl.pdb
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Bl\bin\Release\netcoreapp3.1\AgendaManager.Core.dll
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Bl\bin\Release\netcoreapp3.1\AgendaManager.Model.dll
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Bl\bin\Release\netcoreapp3.1\AgendaManager.Model.pdb
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Bl\bin\Release\netcoreapp3.1\AgendaManager.Core.pdb
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Bl\obj\Release\netcoreapp3.1\AgendaManager.Bl.csproj.AssemblyReference.cache
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Bl\obj\Release\netcoreapp3.1\AgendaManager.Bl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Bl\obj\Release\netcoreapp3.1\AgendaManager.Bl.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Bl\obj\Release\netcoreapp3.1\AgendaManager.Bl.AssemblyInfo.cs
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Bl\obj\Release\netcoreapp3.1\AgendaManager.Bl.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Bl\obj\Release\netcoreapp3.1\AgendaManager.Bl.csproj.CopyComplete
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Bl\obj\Release\netcoreapp3.1\AgendaManager.Bl.dll
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Bl\obj\Release\netcoreapp3.1\AgendaManager.Bl.pdb

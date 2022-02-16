@@ -12,8 +12,8 @@ namespace AgendaManager.Services.Service
 {
     public interface IBaseService<T, TDto, TContext> where T : IBaseEntity where TDto: BaseDto where TContext : DbContext
     {
-        Task<List<TDto>> Get();
-        
+        IQueryable<TDto> Get();
+
         Task<TDto> GetById (int id);
 
         Task<TDto> Create( TDto dto );
@@ -65,10 +65,10 @@ namespace AgendaManager.Services.Service
             return true;
         }
 
-        public virtual async Task<List<TDto>> Get()
+        public virtual IQueryable<TDto> Get()
         {
-            var all = await _dbSet.ToListAsync();
-            return _mapper.Map<List<TDto>>(all);
+            var entities = _dbSet.AsQueryable();
+            return _mapper.Map<List<TDto>>(entities).AsQueryable();
         }
 
         public async Task<TDto> GetById(int id)

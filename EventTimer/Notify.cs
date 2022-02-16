@@ -19,18 +19,11 @@ namespace EventTimer
         }
 
         [FunctionName("Notify")]
-        public async Task Run([TimerTrigger("*/1 * * * * *")]TimerInfo myTimer, ILogger log)
+        public async Task Run([TimerTrigger("*/1 * * * * *", RunOnStartup = true)]TimerInfo myTimer, ILogger log)
         {
             log.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
 
-            var isSent = await _service.NotifyByEmail(2);
-
-            if( isSent )
-            {
-                log.LogInformation("Email Sended");
-            }
-
-            log.LogInformation("Waiting for another event.....");
+            await _service.Notify();
         }
     }
 }

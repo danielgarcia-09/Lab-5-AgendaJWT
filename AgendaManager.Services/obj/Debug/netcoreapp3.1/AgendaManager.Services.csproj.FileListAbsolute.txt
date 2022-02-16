@@ -1,8 +1,12 @@
 C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\bin\Debug\netcoreapp3.1\AgendaManager.Services.deps.json
 C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\bin\Debug\netcoreapp3.1\AgendaManager.Services.dll
 C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\bin\Debug\netcoreapp3.1\AgendaManager.Services.pdb
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\bin\Debug\netcoreapp3.1\AgendaManager.Bl.dll
 C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\bin\Debug\netcoreapp3.1\AgendaManager.Core.dll
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\bin\Debug\netcoreapp3.1\AgendaManager.Model.dll
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\bin\Debug\netcoreapp3.1\AgendaManager.Bl.pdb
 C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\bin\Debug\netcoreapp3.1\AgendaManager.Core.pdb
+C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\bin\Debug\netcoreapp3.1\AgendaManager.Model.pdb
 C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\obj\Debug\netcoreapp3.1\AgendaManager.Services.csproj.AssemblyReference.cache
 C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\obj\Debug\netcoreapp3.1\AgendaManager.Services.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\obj\Debug\netcoreapp3.1\AgendaManager.Services.AssemblyInfoInputs.cache
@@ -11,7 +15,3 @@ C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\obj\Debug\netco
 C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\obj\Debug\netcoreapp3.1\AgendaManager.Services.csproj.CopyComplete
 C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\obj\Debug\netcoreapp3.1\AgendaManager.Services.dll
 C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\obj\Debug\netcoreapp3.1\AgendaManager.Services.pdb
-C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\bin\Debug\netcoreapp3.1\AgendaManager.Model.dll
-C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\bin\Debug\netcoreapp3.1\AgendaManager.Model.pdb
-C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\bin\Debug\netcoreapp3.1\AgendaManager.Bl.dll
-C:\Users\danie\source\repos\AgendaManager\AgendaManager.Services\bin\Debug\netcoreapp3.1\AgendaManager.Bl.pdb

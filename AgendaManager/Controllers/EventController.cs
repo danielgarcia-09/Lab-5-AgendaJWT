@@ -12,12 +12,9 @@ namespace AgendaManager.Controllers
 {
     public class EventController : BaseController<Event, EventDto, AgendaContext>
     {
-        private readonly IEmailService _emailService;
-
         private readonly IEventService _eventService;
-        public EventController(IEventService eventService, IEmailService emailService) : base(eventService)
+        public EventController(IEventService eventService) : base(eventService)
         {
-            _emailService = emailService;
             _eventService = eventService;
         }
 
@@ -61,15 +58,5 @@ namespace AgendaManager.Controllers
             };
             return BadRequest(error);
         }
-
-        [HttpPost("invite")]
-        public async Task<IActionResult> InviteUsers(EmailModel emailModel)
-        {
-            var isSent = await _emailService.SendEmail(emailModel);
-
-            if (isSent) return Ok();
-
-            return BadRequest();
-        } 
     }
 }
